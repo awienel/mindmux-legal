@@ -1,0 +1,8 @@
+# GitHub Pages serves this repo from the root, so ANYTHING committed here is
+# publicly readable at https://legal.mindmux.io/<path>.
+#
+# docs/ holds compliance evidence: the executed OpenAI DPA and console
+# screenshots. Those must never be published. Keep them local, or move them
+# to the private admin repo.
+docs/
+New folder/

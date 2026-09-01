@@ -17,7 +17,7 @@
   <h1>Privacy Policy</h1>
   <p class="meta">Mindmux CIC &middot; Last updated: March 2026</p>
 
-  <p>Mindmux CIC (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) operates the mindmux platform &mdash; a WhatsApp-based support tool for parents and carers of children with Pathological Demand Avoidance (PDA), a profile of autism. This policy explains what personal data we collect, why we collect it, and your rights under UK and EU law.</p>
+  <p>Mindmux CIC (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) operates the mindmux platform, a WhatsApp-based support tool for parents of young people with Pathological Demand Avoidance (PDA), a profile of autism. This policy explains what personal data we collect, why we collect it, and your rights under UK and EU law.</p>
 
   <h2>1. Who We Are</h2>
   <p>Mindmux CIC is a Community Interest Company registered in England and Wales. We are the data controller for personal data processed through the mindmux platform.</p>
@@ -25,11 +25,11 @@
 
   <h2>2. What Data We Collect</h2>
   <ul>
-    <li>WhatsApp phone number &mdash; used to identify your account and deliver messages.</li>
-    <li>Message content &mdash; conversations you have with the platform (check-ins, quiz responses, social story inputs).</li>
-    <li>Care group information &mdash; names or identifiers of family members you choose to add, with their consent.</li>
-    <li>Usage data &mdash; survey responses, content approvals, and completion status.</li>
-    <li>Consent records &mdash; timestamps and method of consent given by you or care group members.</li>
+    <li>WhatsApp phone number: used to identify your account and deliver messages.</li>
+    <li>Message content: conversations you have with the platform (check-ins, quiz responses, social story inputs).</li>
+    <li>Care group information: names or identifiers of family members you choose to add, with their consent.</li>
+    <li>Usage data: survey responses, content approvals, and completion status.</li>
+    <li>Consent records: timestamps and method of consent given by you or care group members.</li>
   </ul>
 
   <h2>3. How We Use Your Data</h2>
@@ -46,33 +46,43 @@
     <li>Recent conversation messages: retained for 14 days.</li>
     <li>Short-term summaries (3-day): retained for 30 days.</li>
     <li>Weekly summaries: retained for 90 days.</li>
-    <li>Personally identifiable information (PII) in messages is automatically detected and anonymised before storage.</li>
+    <li>We run an automated step that looks for personal details in messages (names, places, contact details) and removes them before the message is stored. This step is not perfect. It can miss things, and it sometimes removes words that were not personal at all. We test it regularly and record the results.</li>
   </ul>
 
   <h2>5. Children&rsquo;s Data</h2>
-  <p>Our platform is designed to support children with PDA. Where children are under 16, a parent or guardian provides consent on their behalf. We do not collect data from children directly &mdash; content is configured by the parent or carer and delivered via WhatsApp.</p>
+  <p>Our platform is designed to support young people with PDA. A parent or guardian sets the service up and provides consent on their young person's behalf.</p>
+
+  <p>Young people do send us data directly. They answer check-in questions and quizzes on WhatsApp, and those answers are stored so that progress can be shown to their parent. What they cannot do is hold an open conversation with our AI: free-text messages from a young person are not sent to any AI provider. That is enforced in our software and it fails safe, meaning that if we cannot tell who is writing, we do not send the message.</p>
 
   <h2>6. Care Group Members</h2>
-  <p>If you add adult members (16+) to your care group, we will send them a WhatsApp message requesting their explicit consent before storing any personal information about them. Until consent is given, their names are anonymised in all stored data.</p>
+  <p>Names of people outside your care group that appear in your messages are removed before the message is stored.</p>
+
+  <p>We do not currently operate an automated process for asking other adults to consent to being added to a care group. If we introduce one, we will update this policy first and tell you about it.</p>
 
   <h2>7. Who We Share Data With</h2>
   <p>We do not sell your data. We share it only with:</p>
   <ul>
-    <li>Meta Platforms &mdash; to deliver messages via the WhatsApp Business API.</li>
-    <li>Cloud infrastructure providers &mdash; for hosting and data storage (servers located in the EU/UK).</li>
-    <li>AI/LLM providers &mdash; anonymised content only, used for generating personalised activities. No raw PII is shared.</li>
+    <li>Meta Platforms, to deliver messages through the WhatsApp Business API.</li>
+    <li>Our hosting provider, for running the service and storing data. Servers are in the EU or UK.</li>
+    <li>An AI provider, to generate activities and stories. This is currently OpenAI, in the United States, under a data protection agreement and the UK extension to the EU-US Data Privacy Framework.</li>
   </ul>
+
+  <p>For generating activities and stories we send only short structured labels, such as interests and goals. No names, and no message text.</p>
+
+  <p>A young person's own messages are never sent to an AI provider. That is enforced in our software and it fails safe: if we cannot tell who is writing, we do not send the message.</p>
+
+  <p>We are also preparing a second use of AI, to find and remove personal details from messages before they are stored. This is not switched on at present. When we turn it on we will tell you first, because it works differently from the above and we want to be clear about it: to remove personal details from a message, we have to send the message. It would arrive complete and unedited, and it may contain your own words about your young person, including their name. We will not turn this on until the provider has confirmed in writing that they do not keep what we send.</p>
 
   <h2>8. Your Rights</h2>
   <p>Under UK GDPR and the UK Data Protection Act 2018, you have the right to:</p>
   <ul>
-    <li>Access &mdash; request a copy of your personal data.</li>
-    <li>Rectification &mdash; correct inaccurate data.</li>
-    <li>Erasure &mdash; request deletion of your data (&ldquo;right to be forgotten&rdquo;). <a href="/data-deletion">Submit a data deletion request &rarr;</a></li>
-    <li>Restriction &mdash; limit how we use your data.</li>
-    <li>Portability &mdash; receive your data in a machine-readable format.</li>
-    <li>Object &mdash; object to processing based on legitimate interests.</li>
-    <li>Withdraw consent &mdash; at any time, where processing is based on consent.</li>
+    <li>Access: request a copy of your personal data.</li>
+    <li>Rectification: correct inaccurate data.</li>
+    <li>Erasure: request deletion of your data (&ldquo;right to be forgotten&rdquo;). <a href="/data-deletion">Submit a data deletion request &rarr;</a></li>
+    <li>Restriction: limit how we use your data.</li>
+    <li>Portability: receive your data in a machine-readable format.</li>
+    <li>Object: object to processing based on legitimate interests.</li>
+    <li>Withdraw consent: at any time, where processing is based on consent.</li>
   </ul>
   <p>To exercise any of these rights, contact us at <a href="mailto:info@mindmux.io">info@mindmux.io</a>. We will respond within 30 days.</p>
 
